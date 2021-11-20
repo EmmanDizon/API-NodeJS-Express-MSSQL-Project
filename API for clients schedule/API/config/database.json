@@ -1,0 +1,43 @@
+{
+    "development": {
+        "database": {
+            "user": "user",
+            "password": "password",
+            "server": "server_name",
+            "database": "db",
+            "port": 2014,
+            "connectionTimeout": 60000,
+            "requestTimeout": 300000,
+            "pool": {
+                "max": 20,
+                "min": 0,
+                "idleTimeoutMillis": 60000
+            },
+            "encrypt": false,
+            "options": {
+                "enableArithAbort": true,
+                "appName": "ess-teledirect-api"
+            }
+        }
+    },
+    "production": {
+        "database": {
+            "user": "",
+            "password": "",
+            "server": "",
+            "database": "",
+            "port": 2014,
+            "connectionTimeout": 60000,
+            "requestTimeout": 300000,
+            "pool": {
+                "max": 20,
+                "min": 0,
+                "idleTimeoutMillis": 60000
+            },
+            "options": {
+                "enableArithAbort": true,
+                "appName": "ess-teledirect-api"
+            }
+        }
+    }
+}
